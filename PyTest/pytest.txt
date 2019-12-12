@@ -1,0 +1,34 @@
+PyTest Framework:
+------------------
+Advanced version of unittest framework
+Build on top of unittest framework
+
+pip install pytest
+
+PyTest Naming Conventions:
+--------------------------
+1.File Name should start or ends with 'test'
+     test_google_search.py
+     google_search_test.py
+
+2.Class Name should starts with 'Test'
+
+    TestGoogleSerach
+    TestCaseDemo
+
+3.Test method name should starts with 'test_'
+
+    test_method1()
+    test_method2()
+    
+    
+-s ----for printing output to the console
+-v ----for printing output to the console with good formating
+
+to run pytest program
+open a command prompt in the pytest file
+and run
+py.test -----It will run all file present in that folder.
+py.test test_google_search.py -----It will run test_google_search.py file but dont provide print statement output.
+py test -s test_google_search.py -----It will run test_google_search.py file and provide print statement output.
+py test -s -v test_google_search.py -----It will run test_google_search.py file and provide print statement output with formatting.
